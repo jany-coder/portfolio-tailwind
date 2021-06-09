@@ -1,4 +1,6 @@
 /* ./src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,5 +12,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.logo h2{
+  font-family: 'Hanalei Fill', cursive;
+}
+
+/* Showcase */
+
+.showcase {
+  height: 100vh;
+  background: url('./assets/bg-portfolio.jpg') no-repeat center/cover;
+}
+
+
+.showcase .overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .8);
 }
 
